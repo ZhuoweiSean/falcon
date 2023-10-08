@@ -25,9 +25,10 @@
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/7zip-bin/-/7zip-bin-4.1.0.tgz#33eff662a5c39c0c2061170cc003c5120743fff0"
 
-"@apla/clickhouse@^1.5.3":
+"@apla/clickhouse@1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@apla/clickhouse/-/clickhouse-1.5.3.tgz#d743607361349e55060f553ea81ff3ea5d69d2c9"
+  integrity sha512-3lXNsPf+3CMFZQ61yM6k6A3AEY/bNGavLsQjD+eD+oyi/hpLXMn5empYj0afI/8x+sAR3s6yzLF/rgED/mZ/zg==
   dependencies:
     buffer-indexof-polyfill "^1.0.1"
     object-assign "^4.1.0"
@@ -2288,9 +2289,6 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-"codemirror-clickhouse@file:../codemirror-clickhouse":
-  version "1.0.0"
-
 codemirror@^5.32.0:
   version "5.42.0"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.42.0.tgz#2d5b640ed009e89dee9ed8a2a778e2a25b65f9eb"
@@ -3495,9 +3493,10 @@ electron-window@^0.8.0:
   dependencies:
     is-electron-renderer "^2.0.0"
 
-electron@2.0:
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.14.tgz#fad6766645e7c0cd10b4ae822d3167959735a870"
+electron@2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.8.tgz#6ec7113b356e09cc9899797e0d41ebff8163e962"
+  integrity sha512-pbeGFbwijb5V3Xy/KMcwIp59eA9igg2br+7EHbbwQoa3HRDF5JjTrciX7OiscCA52+ze2n4q38S4lXPqRitgIA==
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
@@ -7210,9 +7209,14 @@ moment-timezone@^0.5.23, moment-timezone@^0.5.4:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.6, moment@^2.13.0, moment@^2.22.2:
+"moment@>= 2.9.0", moment@^2.10.6, moment@^2.13.0:
   version "2.22.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 monotone-convex-hull-2d@^1.0.1:
   version "1.0.1"
