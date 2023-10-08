@@ -25,9 +25,10 @@
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/7zip-bin/-/7zip-bin-4.1.0.tgz#33eff662a5c39c0c2061170cc003c5120743fff0"
 
-"@apla/clickhouse@^1.5.3":
+"@apla/clickhouse@1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@apla/clickhouse/-/clickhouse-1.5.3.tgz#d743607361349e55060f553ea81ff3ea5d69d2c9"
+  integrity sha512-3lXNsPf+3CMFZQ61yM6k6A3AEY/bNGavLsQjD+eD+oyi/hpLXMn5empYj0afI/8x+sAR3s6yzLF/rgED/mZ/zg==
   dependencies:
     buffer-indexof-polyfill "^1.0.1"
     object-assign "^4.1.0"
@@ -169,6 +170,11 @@
     stream-events "^1.0.1"
     string-format-obj "^1.1.0"
     through2 "^2.0.3"
+
+"@icons/material@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
+  integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
 "@mapbox/geojson-area@0.2.2":
   version "0.2.2"
@@ -2288,9 +2294,6 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-"codemirror-clickhouse@file:../codemirror-clickhouse":
-  version "1.0.0"
-
 codemirror@^5.32.0:
   version "5.42.0"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.42.0.tgz#2d5b640ed009e89dee9ed8a2a778e2a25b65f9eb"
@@ -3495,9 +3498,10 @@ electron-window@^0.8.0:
   dependencies:
     is-electron-renderer "^2.0.0"
 
-electron@2.0:
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.14.tgz#fad6766645e7c0cd10b4ae822d3167959735a870"
+electron@2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.8.tgz#6ec7113b356e09cc9899797e0d41ebff8163e962"
+  integrity sha512-pbeGFbwijb5V3Xy/KMcwIp59eA9igg2br+7EHbbwQoa3HRDF5JjTrciX7OiscCA52+ze2n4q38S4lXPqRitgIA==
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
@@ -6675,6 +6679,11 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+lodash-es@^4.17.15:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash-es@^4.2.1:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.11.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
@@ -6791,6 +6800,11 @@ lodash@4.12.0:
 lodash@^4.0.1, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+
+lodash@^4.17.15:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-driver@1.2.7:
   version "1.2.7"
@@ -9026,11 +9040,24 @@ react-codemirror2@^4.2.1:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/react-codemirror2/-/react-codemirror2-4.3.0.tgz#e79aedca4da60d22402d2cd74f2885a3e5c009fd"
 
-react-color@^2.13.8, react-color@^2.14.1:
+react-color@^2.13.8:
   version "2.14.1"
   resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.14.1.tgz#db8ad4f45d81e74896fc2e1c99508927c6d084e0"
   dependencies:
     lodash "^4.0.1"
+    material-colors "^1.2.1"
+    prop-types "^15.5.10"
+    reactcss "^1.2.0"
+    tinycolor2 "^1.4.1"
+
+react-color@^2.19.3:
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.19.3.tgz#ec6c6b4568312a3c6a18420ab0472e146aa5683d"
+  integrity sha512-LEeGE/ZzNLIsFWa1TMe8y5VYqr7bibneWmvJwm1pCn/eNmrabWDh659JSPn9BuaMpEfU83WTOJfnCcjDZwNQTA==
+  dependencies:
+    "@icons/material" "^0.2.4"
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
     material-colors "^1.2.1"
     prop-types "^15.5.10"
     reactcss "^1.2.0"
