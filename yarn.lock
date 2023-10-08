@@ -25,9 +25,10 @@
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/7zip-bin/-/7zip-bin-4.1.0.tgz#33eff662a5c39c0c2061170cc003c5120743fff0"
 
-"@apla/clickhouse@^1.5.3":
+"@apla/clickhouse@1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@apla/clickhouse/-/clickhouse-1.5.3.tgz#d743607361349e55060f553ea81ff3ea5d69d2c9"
+  integrity sha512-3lXNsPf+3CMFZQ61yM6k6A3AEY/bNGavLsQjD+eD+oyi/hpLXMn5empYj0afI/8x+sAR3s6yzLF/rgED/mZ/zg==
   dependencies:
     buffer-indexof-polyfill "^1.0.1"
     object-assign "^4.1.0"
@@ -2288,9 +2289,6 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-"codemirror-clickhouse@file:../codemirror-clickhouse":
-  version "1.0.0"
-
 codemirror@^5.32.0:
   version "5.42.0"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.42.0.tgz#2d5b640ed009e89dee9ed8a2a778e2a25b65f9eb"
@@ -3495,9 +3493,10 @@ electron-window@^0.8.0:
   dependencies:
     is-electron-renderer "^2.0.0"
 
-electron@2.0:
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.14.tgz#fad6766645e7c0cd10b4ae822d3167959735a870"
+electron@2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.8.tgz#6ec7113b356e09cc9899797e0d41ebff8163e962"
+  integrity sha512-pbeGFbwijb5V3Xy/KMcwIp59eA9igg2br+7EHbbwQoa3HRDF5JjTrciX7OiscCA52+ze2n4q38S4lXPqRitgIA==
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
@@ -10473,6 +10472,14 @@ source-map-support@^0.4.15:
 source-map-support@^0.5.0, source-map-support@^0.5.9:
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.9.tgz#41bc953b2534267ea2d605bccfa7bfa3111ced5f"
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
+source-map-support@^0.5.21:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
