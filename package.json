@@ -246,11 +246,11 @@
   },
   "dependencies": {
     "@apla/clickhouse": "1.5.3",
-    "alasql": "^0.4.5",
+    "alasql": "^4.0.2",
     "csv-parse": "^2.0.0",
     "dtrace-provider": "^0.8.6",
     "font-awesome": "^4.6.1",
-    "ibm_db": "^2.3.0",
+    "ibm_db": "^2.7.2",
     "moment": "^2.22.2",
     "mysql": "^2.15.0",
     "oracledb": "https://github.com/oracle/node-oracledb/releases/download/v2.2.0/oracledb-src-2.2.0.tgz",
@@ -262,7 +262,7 @@
     "sequelize": "3.30.4",
     "shortid": "^2.2.13",
     "source-map-support": "^0.5.0",
-    "sqlite3": "^3.1.13",
+    "sqlite3": "^5.0.3",
     "tedious": "^2.1.4"
   },
   "engines": {
