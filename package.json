@@ -246,7 +246,7 @@
   },
   "dependencies": {
     "@apla/clickhouse": "1.5.3",
-    "alasql": "^0.4.5",
+    "alasql": "^4.0.2",
     "csv-parse": "^2.0.0",
     "dtrace-provider": "^0.8.6",
     "font-awesome": "^4.6.1",
